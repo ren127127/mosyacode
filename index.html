@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mosyasite</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- slickの読み込み -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navleft">
+                <a href="#">My Profile</a>
+            </div>
+            <div>
+                <a href="#about">About</a>
+                <a href="#works">Works</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="carousel-section">
+            <div class="carousel">
+                <div>
+                    <img src="image/main.png" alt="" class="carouselImg">
+                </div>
+                <div>
+                    <img src="image/main2.png" alt="" class="carouselImg">
+                </div>
+                <div>
+                    <img src="image/main3.png" alt="" class="carouselImg">
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="about" id="about">
+            <h2>About</h2>
+            <div class="aboutflex">
+                <div class="aboutleft">
+                    <img src="image/about.png" alt="" class="effect-fade">
+                </div>
+
+                <div class="aboutright">
+                    <h3>Kazuki Asahina</h3>
+                    <ul>
+                        <li>25歳 長野県佐久市出身</li>
+                        <li>ソフトウェア業界でマーケティングに従事</li>
+                        <li>趣味はカメラ、愛機はCanon</li>
+                        <li>自然を撮影するのが好きで、海や山によく行く</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- works -->
+        <section class="works" id="works">
+            <h2>Works</h2>
+            <div class="worksflex">
+                <div class="divitems course-item">
+                    <a href=""><img src="image/works1.png" alt=""></a>
+                    <p>新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
+                </div>
+
+                <div class="divitemscenter course-item">
+                    <a href=""><img src="image/works2.png" alt=""></a>
+                    <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+                </div>
+
+                <div class="divitems course-item">
+                    <a href=""><img src="image/works3.png" alt=""></a>
+                    <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer> 
+        <p class="copyright">&copy; MyProfile. All rights reserved.</p>
+    </footer>
+
+    <!-- jQuery発展 -->
+    <div class="modal">
+        <div class="bigimg"><img src="" alt=""></div>
+        <p class="close-btn"><a href="">✖︎</a></p>
+    </div>
+
+    <a href="#" id="page-top">TOP</a>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!-- slickの読み込み -->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

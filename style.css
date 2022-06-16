@@ -1,0 +1,164 @@
+body {
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 34px;
+}
+
+.navleft > a {
+    border: 1px solid #000;
+    padding: 0 20px;
+}
+
+
+/* about */
+.about > h2 {
+    text-align: center;
+    margin: 28px 0;
+    padding: 60px 0 40px;
+    font-size: 32px;
+}
+
+.aboutflex {
+    max-width: 980px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.aboutleft > img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 3px solid #999;
+    object-fit: cover;
+    margin-right: 52px;
+    margin-left: 52px;
+}
+
+.aboutright {
+    margin-right: 52px;
+    margin-left: 52px;
+    padding-left: 20px;
+}
+
+/* works */
+.works > h2 {
+    text-align: center;
+    margin: 28px 0;
+    padding: 60px 0 40px;
+    font-size: 32px;
+}
+
+.worksflex {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+.divitemscenter {
+    padding: 0 20px 60px;
+    width: 25%;
+}
+
+.divitems {
+    padding-bottom: 60px;
+    width: 25%;
+}
+
+.divitemscenter > p,
+.divitems > p {
+    margin: 18px 0;
+}
+
+
+.copyright {
+    text-align: center;
+    margin: 18px 0;
+    padding-bottom: 20px;
+}
+
+/* 発展 */
+/* TOPに戻る */
+#page-top {
+    position: fixed;
+    bottom: 38px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 28px 24px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+/* フェードイン */
+.effect-fade {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: opacity 2s, visibility 2s, transform 2s;
+}
+
+.effect-scroll {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+} 
+
+/* モーダル */
+
+.course-item a:hover {
+    opacity: 0.5;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.bigimg {
+    position: absolute;
+    width: 80%;
+    max-width: 800px;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.close-btn {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.close-btn a {
+    color: #fff;
+    text-decoration: none;
+}
